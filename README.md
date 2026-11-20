@@ -1,14 +1,14 @@
-# H1 Assignment 01: Two LLM Provider Cost and Token Tracker
+# Assignment 01: Two LLM Provider Cost and Token Tracker
 
 This assignment is a python script that sends the same prompt to two LLM providers, Google Gemini and Groq. Then prints both responses and a performance table comparing the input and output token counts, cost per call (in USD), and the response time (in seconds) for both providers.
 
-# H2 How to run:
+#  How to run:
 1. Clone the repository and navigate into the project.
 2. Install the dependencies using **uv sync**.
 3. Obtain the free Gemini and Groq API keys from Google AI Studio and GroqCloud and place them in the **.env** file.
 4. Run the application using **uv run tracker.py "Your prompt here"**.
 
-# H2 Sample Output
+#  Sample Output
 Prompt: Explain AI in simple words
 
 GEMINI RESPONSE:
@@ -73,5 +73,5 @@ So, AI is like a very fast, very flexible learning machine that can take a pile 
 | Groq     | 76           | 262           | 0.954   | 0.0000843000 |
 
 
-# H3 Learning outcomes:
+# Learning outcomes:
 This assignment helped me understand and learn how LLM providers are called through their API. I learned how to get the input and output tokens from their actual API usage metadata and calculate the total cost per API call. 
