@@ -75,3 +75,6 @@ So, AI is like a very fast, very flexible learning machine that can take a pile 
 
 # Learning outcomes:
 This assignment helped me understand and learn how LLM providers are called through their API. I learned how to get the input and output tokens from their actual API usage metadata and calculate the total cost per API call. 
+
+# AI Usage Disclosure
+AI tool ChatGPT was used to assist with the coding part of this assignment.
